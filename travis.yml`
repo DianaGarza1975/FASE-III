@@ -1,0 +1,18 @@
+ yaml
+   language: node_js
+   node_js:
+     - "12"
+
+   install:
+     - npm install
+
+   script:
+     - npm run test  # Ejecutar tus pruebas aquí
+
+   deploy:
+     provider: heroku
+     api_key:
+       secure: <tu-api-key-segura>
+     app: dulcetti-pasteleria  # Nombre de tu aplicación en Heroku
+     on:
+       branch: main  # Desplegar solo desde la rama main
