@@ -3,19 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Esta es mi primera página web con Visual Studio Code">
-    <title>Mi primera Web</title>
+    <meta name="description" content="Catálogo de productos de Dulcetti Pastelería">
+    <title>Catálogo de Productos - Dulcetti Pastelería</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dulcetti Pasteleria</h1>
-    <script src="script.js"></script>
-    <header><img src="Imagenes/Logo.jpg"alt=></header>
+    <header>
+        <img src="Imagenes/Logo.jpg" alt="Logo Dulcetti Pastelería">
+        <h1>Catálogo de Productos</h1>
+    </header>
     <nav>
-        <a href="#">Inicio</a>
+        <a href="index.html">Inicio</a>
         <a href="quienessomos.html">Quiénes somos</a>
-        <a href="Catálogo de productos.html">Catálogo de productos</a>
-        <a href="">Contacto</a>
+        <a href="catalogo.html">Catálogo de productos</a>
+        <a href="contacto.html">Contacto</a>
     </nav>
-
+    <main>
+        <section id="catalogo">
+            <h2>Nuestros Productos</h2>
+            <div class="producto" data-price="10">
+                <img src="Imagenes/pastel1.jpg" alt="Pastel de chocolate">
+                <h3><a href="#" class="product-link" data-info="Pastel de Chocolate: Delicioso pastel de chocolate con crema suave y cobertura de ganache.">Pastel de Chocolate</a></h3>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="producto" data-price="12">
+                <img src="Imagenes/pastel2.jpg" alt="Pastel de vainilla">
+                <h3><a href="#" class="product-link" data-info="Pastel de Vainilla: Pastel esponjoso de vainilla con un toque de frescura y glaseado de vainilla.">Pastel de Vainilla</a></h3>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="producto" data-price="15">
+                <img src="Imagenes/pastel3.jpg" alt="Pastel de fresa">
+                <h3><a href="#" class="product-link" data-info="Pastel de Fresa: Pastel con sabor a fresa natural y decoración con fresas frescas.">Pastel de Fresa</a></h3>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </section>
+        
+        <!-- Carrito de compras -->
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="carrito-items"></ul>
+            <p>Total: <span id="carrito-total">$0.00</span></p>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Dulcetti Pastelería. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
