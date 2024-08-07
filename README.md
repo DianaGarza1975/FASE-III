@@ -1,5 +1,16 @@
 # FASE-III
 ### Instalación y Configuración - README.md
+# Dulcetti Pastelería
+
+## Tabla de Contenidos
+
+1. [Descripción del Proyecto](#descripción-del-proyecto)
+2. [Problema Identificado](#problema-identificado)
+3. [Solución Propuesta](#solución-propuesta)
+4. [Arquitectura de la Solución](#arquitectura-de-la-solución)
+5. [Guía de Instalación](#guía-de-instalación)
+6. [Contribuciones](#contribuciones)
+7. [Licencia](#licencia)
 
 #### a. Instalación del Ambiente de Desarrollo
 
