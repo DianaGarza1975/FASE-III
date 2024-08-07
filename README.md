@@ -12,6 +12,36 @@
 6. [Contribuciones](#contribuciones)
 7. [Licencia](#licencia)
 
+## Descripción del Proyecto
+
+### Introducción
+
+**Dulcetti Pastelería** es una aplicación web diseñada para gestionar y vender productos de pastelería en línea. La aplicación permite a los usuarios explorar un catálogo de deliciosos pasteles y postres, realizar pedidos y pagar en línea de manera segura. Está diseñada para facilitar una experiencia de compra fluida y atractiva para los amantes de los dulces.
+
+### Características Principales
+
+- **Catálogo de Productos**: Navega por una amplia variedad de productos de pastelería, con descripciones detalladas y fotos atractivas.
+- **Carrito de Compras**: Agrega productos al carrito, visualiza el total de la compra y realiza el pago de forma segura.
+- **Registro e Inicio de Sesión**: Los usuarios pueden crear una cuenta para guardar sus pedidos y acceder a promociones exclusivas.
+- **Gestión de Pedidos**: Los administradores pueden gestionar pedidos y actualizar el estado de cada uno desde un panel de administración.
+
+### Tecnologías Utilizadas
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Base de Datos**: MongoDB
+- **Otras Herramientas**: Stripe para procesamiento de pagos en línea, Heroku para despliegue en la nube
+
+### Estado del Proyecto
+
+Actualmente, el proyecto está en fase de producción con un catálogo funcional y sistema de pagos en línea integrado. Las futuras versiones incluirán mejoras en la interfaz de usuario y nuevas funcionalidades como un sistema de notificaciones para los usuarios.
+
+### Capturas de Pantalla
+
+![Página de Inicio](file:///C:/Users/BRM15852/Downloads/HTLM5/index.html)
+![Página del Catálogo](file:///C:/Users/BRM15852/Downloads/HTLM5/quienessomos.html)
+
+
 #### a. Instalación del Ambiente de Desarrollo
 
 1. **Clonar el Repositorio:**
