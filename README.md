@@ -144,7 +144,7 @@ Actualmente, el proyecto está en fase de producción con un catálogo funcional
 
 ### Diagrama de Arquitectura
 
-![Diagrama de Arquitectura](ruta/al/diagrama.png)
+![Diagrama de Arquitectura](C:\Users\BRM15852\Downloads\HTLM5\Imagenes\Arquitectura.jpg)
 
 *Leyenda*:
 - **Frontend**: Interfaz de usuario construida con React.
